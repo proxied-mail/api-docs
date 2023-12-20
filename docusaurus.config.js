@@ -59,7 +59,7 @@ const config = {
       navbar: {
         logo: {
           alt: 'ABRouter Logo',
-          src: 'https://abrouter.com/img/logo.svg?',
+          src: 'https://proxiedmail.com/images/logo-without-margin1.svg?',
           href: 'https://proxiedmail.com'
         },
         items: [
@@ -69,14 +69,14 @@ const config = {
             to: '/docs/intro',
           },
           {
-            href: 'https://proxiedmail.com',
+            href: 'https://proxiedmail.com/en/signin',
             position: 'left',
             label: 'Sign in',
           },
           {
             href: 'https://proxiedmail.com',
             position: 'left',
-            label: 'Back to ABRouter',
+            label: 'Back to ProxiedMail',
           },
           {
             href: 'https://github.com/abrouter/abrouter',
@@ -89,7 +89,7 @@ const config = {
         style: 'dark',
         logo: {
           alt: 'ABRouter Logo',
-          src: 'https://abrouter.com/img/logo-white.svg?',
+          src: 'https://proxiedmail.com/images/logo-without-margin1.svg',
         },
         links: [
           {
