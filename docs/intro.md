@@ -29,8 +29,8 @@ The first thing you need to do - sign up on the [ABRouter](https://abrouter.com/
 
 After creating experiment or feature flag, please learn more about the process of releasing it for release managers or team-leads:
 
-[Process of setting up the experiment](base/settingUpExperiment)
+[Process of setting up the experiment](endpoints/settingUpExperiment)
 
-[Process of setting up the feature flag](base/settingUpFeatureFlag)
+[Process of setting up the feature flag](endpoints/settingUpFeatureFlag)
 
 We hope it will explain a lot. Additionally, we are recommending to read the [cautions for developers](category/developer-cautions).

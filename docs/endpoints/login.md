@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# Process of setting up the experiment
+# API Token
 
 Sometimes it's useful to think about the experiments overall, about the process of implementing new experiments in your product. Based on that process quality level you will have the level of quality for your final results.
 
