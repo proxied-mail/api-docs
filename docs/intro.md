@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Intro
 
-Let's discover **ABRouter**.
+Welcome to ProxiedMail docs. Currently we've described potential use cases for receiving email webhooks and creating proxy-emails via API.
 
 ## About ABRouter
 
