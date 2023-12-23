@@ -1,10 +1,13 @@
 ---
-sidebar_position: 3
+sidebar_position: 1
 ---
 
-# API Token
+# GET /api/v1/auth (auth)
 
-Sometimes it's useful to think about the experiments overall, about the process of implementing new experiments in your product. Based on that process quality level you will have the level of quality for your final results.
+URL: https://proxiedmail.com/api/v1/auth
+
+
+
 
 1. Define the hypothesis of the improvement, and what feature you can improve. For example, you want to test the color of the purchase button
 2. Define the multiple variables of the improvement. For the button, it will be "gray", "red", and "blue" for example. Currently, the color of the button is orange.

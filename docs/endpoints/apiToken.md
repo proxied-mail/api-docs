@@ -1,8 +1,8 @@
 ---
-sidebar_position: 4
+sidebar_position: 2
 ---
 
-# Process of setting up the feature flag
+# POST /api/v1/api-token (api token)
 
 Feature flags are easier than experiments. Don't need to keep the eye on the statistic by feature flag, but you need to focus on why needed this feature flag and when to enable or disable it.
 
