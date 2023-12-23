@@ -4,11 +4,23 @@ sidebar_position: 4
 
 # POST /api/v1/proxy-bindings
 
-A feature flag is a software development process used to enable or disable functionality remotely without deploying code. New features can be deployed without making them visible to users. Feature flags help decouple deployment from release letting you manage the full lifecycle of a feature.
+Creating proxy-email.
 
-[Setup feature flags in Laravel](/docs/sdks/laravel)
+Payload:
 
-[Setup feature flags in Symfony](/docs/sdks/symfony)
+```json
+{
+   "data":{
+      "type":"proxy_bindings",
+      "attributes":{
+         "real_addresses":[
+            "kkkchinazes@pxdmail.int"
+         ],
+         "proxy_address":"d0zjr5gnwi@proxiedmail.com",
+         "callback_url": "https://zalupa.com/callback"
+      }
+   }
+}
+```
 
-[Setup feature flags in vanilla PHP or other frameworks](/docs/sdks/php)
-
+Pretty clear. Everything else you can add in PATCH request.
