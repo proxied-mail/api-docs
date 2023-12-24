@@ -105,12 +105,8 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Discord',
-                href: 'https://discord.gg/8hYgMAjAFw',
-              },
-              {
                 label: 'Twitter',
-                href: 'https://twitter.com/abrouter',
+                href: 'https://twitter.com/proxiedmail',
               },
             ],
           },
@@ -123,12 +119,12 @@ const config = {
               // },
               {
                 label: 'GitHub',
-                href: 'https://github.com/abrouter/abrouter',
+                href: 'https://github.com/abrouter',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} ABRouter.`,
+        copyright: `Copyright © ${new Date().getFullYear()} ProxiedMail.`,
       },
       prism: {
         theme: lightCodeTheme,

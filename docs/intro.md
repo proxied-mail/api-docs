@@ -6,31 +6,22 @@ sidebar_position: 1
 
 Welcome to ProxiedMail docs. Currently we've described potential use cases for receiving email webhooks and creating proxy-emails via API.
 
-## About ABRouter
+## ProxiedMail Common Info
 
-ABRouter is a open-source, written on PHP+Laravel, platform to run A/B tests and feature flags on your product. ABRouter has a high level of support of PHP and PHP frameworks: Laravel and Symfony.
+ProxiedMail mainly built to preserve privacy for those who need it, but in the same time we want to make email kind of great again.
 
-You can [learn more about the supported technologies on the SDK's page](category/sdks).
+So, we provide some additional features to our main service such as automatic creating of proxy-emails and receiving emails via webhooks.
 
-## ABRouter UI
+## API
 
-Besides, the good clients for PHP, we also have a pretty UI to manage A/B tests and feature flag.
+API mainly built as the REST API with JSON as a data format. We are using [JSON API](https://jsonapi.org/) specification for our API.
+Over all you don't need much knowledge about JSON API to use our API, but it's good to know anyway. 
+We have described anything with our request-response example and example of cURL request in [endpoints section](/docs/category/http-endpoints).
 
-You can start, stop, a/b tests and feature flags there, track the statistics and just enjoy it.
+## Use Cases
 
-## Using locally or cloud
+Please check out  [use cases](/docs/category/use-cases) to see how you can use ProxiedMail API.
 
-We highly recommend you the pros&cons of [using ABRouter locally and as the cloud solution](deploy/proscons) before deploying it.
-[Learn more about how to deploy ABRouter](docs/deploy).
+## Questions
 
-## Getting started
-
-The first thing you need to do - sign up on the [ABRouter](https://abrouter.com/en/signup). Then, you can to [create experiment](managing/managingAbTests) or [feature flag](managing/managingFeatureFlags).
-
-After creating experiment or feature flag, please learn more about the process of releasing it for release managers or team-leads:
-
-[Process of setting up the experiment](endpoints/settingUpExperiment)
-
-[Process of setting up the feature flag](endpoints/settingUpFeatureFlag)
-
-We hope it will explain a lot. Additionally, we are recommending to read the [cautions for developers](category/developer-cautions).
+Contact alex@proxiedmail.com
