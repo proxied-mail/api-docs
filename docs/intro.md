@@ -24,4 +24,4 @@ Please check out  [use cases](/docs/category/use-cases) to see how you can use P
 
 ## Questions
 
-Contact alex@proxiedmail.com
+Contact api1@pxdmail.com
