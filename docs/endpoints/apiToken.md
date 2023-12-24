@@ -19,6 +19,7 @@ Response (200):
 
 Errors: -
 
+---
 
 cURL:
 ```bash

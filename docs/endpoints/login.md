@@ -62,7 +62,7 @@ Success (200):
 }
 ```
 
-
+---
 
 cURL:
 ```bash

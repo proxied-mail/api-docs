@@ -88,3 +88,14 @@ Please do not put proxiedmail emails as real addresses.
 is_verified is the attribute that indicates that real address is verified via link send to this email.
 
 If you want to omit sending any emails to the real address from the proxy-email please use the domain "int.proxiedmail.com" as a real address. Callbacks for this email will still go through.
+
+----
+
+cURL:
+
+```bash
+curl --location --request GET 'https://proxiedmail.com/api/v1/proxy-bindings' \
+--header 'accept: application/json' \
+--header 'content-type: application/json' \
+--header 'Token: Auth_TOKEN'
+```
