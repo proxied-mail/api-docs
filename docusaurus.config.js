@@ -37,14 +37,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/abrouter/docs/tree/main/',
+            'https://github.com/proxied-mail/docs/tree/main/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/abrouter/docs/tree/main/',
+            'https://github.com/proxied-mail/docs/tree/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -58,7 +58,7 @@ const config = {
     ({
       navbar: {
         logo: {
-          alt: 'ABRouter Logo',
+          alt: 'PM Logo',
           src: 'https://proxiedmail.com/images/logo-without-margin1.svg?',
           href: 'https://proxiedmail.com'
         },
@@ -79,7 +79,7 @@ const config = {
             label: 'Back to ProxiedMail',
           },
           {
-            href: 'https://github.com/abrouter/abrouter',
+            href: 'https://github.com/proxied-mail/',
             label: 'GitHub',
             position: 'right',
           },
@@ -88,7 +88,7 @@ const config = {
       footer: {
         style: 'dark',
         logo: {
-          alt: 'ABRouter Logo',
+          alt: 'PM Logo',
           src: 'https://proxiedmail.com/images/logo-without-margin1.svg',
         },
         links: [
@@ -119,7 +119,7 @@ const config = {
               // },
               {
                 label: 'GitHub',
-                href: 'https://github.com/abrouter',
+                href: 'https://github.com/proxied-mail',
               },
             ],
           },
