@@ -4,11 +4,37 @@ sidebar_position: 5
 
 # PATCH /api/v1/proxy-bindings
 
-A feature flag is a software development process used to enable or disable functionality remotely without deploying code. New features can be deployed without making them visible to users. Feature flags help decouple deployment from release letting you manage the full lifecycle of a feature.
+URL: PATCH https://proxiedmail.com/api/v1/proxy-bindings
 
-[Setup feature flags in Laravel](/docs/sdks/laravel)
+```json
+{
+   "data":{
+      "id":"A1131D57-6000-0000-00000BAE",
+      "type":"proxy_bindings",
+      "attributes":{
+         "real_addresses":{
+            "kkkchinazes@pxdmail.int":{
+               "is_enabled":true,
+               "is_verification_needed":false,
+               "is_verified":false
+            }
+         },
+         "proxy_address":"q1v9nj1gkw@proxiedmail.com",
+         "received_emails":0,
+         "description":"abc"
+      }
+   }
+}
+```
 
-[Setup feature flags in Symfony](/docs/sdks/symfony)
 
-[Setup feature flags in vanilla PHP or other frameworks](/docs/sdks/php)
+Quite the same as POST request with only one difference in "real_addresses". 
 
+
+cURL:
+```bash
+curl --location --request PATCH 'https://proxiedmail.com/api/v1/proxy-bindings/A1131D57-6000-0000-00000BAE' \
+--header 'content-type: application/json' \
+--header 'Token: Token' \
+--data-raw '{"data":{"id":"A1131D57-6000-0000-00000BAE","type":"proxy_bindings","attributes":{"real_addresses":{"kkkchinazes@pxdmail.int":{"is_enabled":true,"is_verification_needed":false,"is_verified":false}},"proxy_address":"q1v9nj1gkw@proxiedmail.com","received_emails":0,"description":"abc"}}}'
+```

@@ -4,6 +4,8 @@ sidebar_position: 4
 
 # POST /api/v1/proxy-bindings
 
+URL: POST https://proxiedmail.com/api/v1/proxy-bindings
+
 Creating proxy-email.
 
 Payload:
