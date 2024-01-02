@@ -18,6 +18,10 @@ Steps to do it:
 3. Obtain access token via [api-token endpoint](/docs/endpoints/apiToken) or [UI](https://proxiedmail.com/en/settings)
 4. Create proxy-email via [proxy-bindings endpoint](/docs/endpoints/postProxyBindings) with specified callback_url: https://example.com/callback or using [UI](https://proxiedmail.com/en/board).
 You can also use the UI to create proxy-email with callback_url. Just create proxy-email, click "More" and specify callback url you want to use.
+
+**Important:** If you want to prevent messages of being forwarded to your primary email please use "@int.proxiedmail.com" domain in a real address. Example: aeris1@int.proxiedmail.com
+
+
  
 
 ![Set up callback img](/img/setupcallback.png)
