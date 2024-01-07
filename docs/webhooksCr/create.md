@@ -9,7 +9,8 @@ Response (200):
 {
   "status": "ok",
   "call_url": "https://proxiedmail.com/api/v1/callback/call/27c4f31ebcb6307e8daa68f681f84161",
-  "get_url": "https://proxiedmail.com/api/v1/callback/get/27c4f31ebcb6307e8daa68f681f84161"
+  "get_url": "https://proxiedmail.com/api/v1/callback/get/27c4f31ebcb6307e8daa68f681f84161",
+  "id": "27c4f31ebcb6307e8daa68f681f84161"
 }
 ```
 

@@ -12,7 +12,7 @@ In case we haven't received any callback yet:
   "payload": null,
   "code": "ok",
   "is_received": false,
-  "method": 0
+  "method": null
 }
 ```
 
