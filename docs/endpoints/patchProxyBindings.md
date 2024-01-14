@@ -2,7 +2,7 @@
 sidebar_position: 5
 ---
 
-# PATCH /api/v1/proxy-bindings
+# PATCH /api/v1/proxy-bindings/{id}
 
 URL: PATCH https://proxiedmail.com/api/v1/proxy-bindings/{id}
 
