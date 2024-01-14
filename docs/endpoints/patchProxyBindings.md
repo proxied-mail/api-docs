@@ -4,7 +4,7 @@ sidebar_position: 5
 
 # PATCH /api/v1/proxy-bindings
 
-URL: PATCH https://proxiedmail.com/api/v1/proxy-bindings
+URL: PATCH https://proxiedmail.com/api/v1/proxy-bindings/{id}
 
 ```json
 {
