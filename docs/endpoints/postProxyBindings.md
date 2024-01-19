@@ -36,8 +36,10 @@ real_addresses is an array of real email addresses where we will forward all inc
 
 
 Please note, that if you wish to omit email delivery somewhere and use only webhook, please use the following email addresses domains:
+
     @int.proxiedmail.com
     @proxiedmail-int.int
+
 Example: testingadw@proxiedmail-int.int
 
 
