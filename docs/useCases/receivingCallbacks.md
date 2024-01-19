@@ -11,6 +11,15 @@ Case: you have email address using which you want to get information about incom
 Example: you have: receive-callback@proxiedmail.com and want information send from astrid@aeriscocktails.com being forwarded into your system via HTTP.
 Let's say your url for receiving callback is: https://example.com/callback
 
+Please note, that if you wish to omit email delivery somewhere and use only webhook, please use the following email addresses domains:
+
+    @int.proxiedmail.com
+    @proxiedmail-int.int
+
+Example: testingadw@proxiedmail-int.int
+
+
+
 Steps to do it:
 
 1. Sign up to ProxiedMail 
