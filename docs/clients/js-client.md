@@ -8,6 +8,7 @@ Please check out our JS client.
 
 
 [GitHub](https://github.com/proxied-mail/proxiedmail-js-client)
+
 [NPM](https://www.npmjs.com/package/proxiedmail-api)
 
 
