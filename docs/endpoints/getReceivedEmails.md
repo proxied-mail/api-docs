@@ -2,9 +2,9 @@
 sidebar_position: 8
 ---
 
-# GET /api/v1/receivedEmailId/-
+# GET /api/v1/received-emails/-
 
-URL: GET https://proxiedmail.com/api/v1/receivedEmailId/{receivedEmailId}
+URL: GET https://proxiedmail.com/api/v1/received-emails/{receivedEmailId}
 
 Message payload of specific received email.
 
