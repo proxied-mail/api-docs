@@ -2,9 +2,9 @@
 sidebar_position: 4
 ---
 
-# GET /api/v1/received-emails-links/{id}
+# GET /api/v1/received-emails-links/{proxyBindingId}
 
-URL: GET https://proxiedmail.com/api/v1/received-emails-links/{id}
+URL: GET https://proxiedmail.com/api/v1/received-emails-links/{proxyBindingId}
 
 List of links to received emails. Use the link attribute with endpoint that indicates call url (with the same headers) to get email payload and more details.
 
@@ -50,7 +50,7 @@ Please note that proxy-email should be browsable. (is_browsable attribute).
 cUrl:
 
 ```bash
-curl --location --request GET 'https://proxiedmail.com/api/v1/received-emails-links/received-emails-links' \
+curl --location --request GET 'https://proxiedmail.com/api/v1/received-emails-links/{proxyBindingId}' \
 --header 'accept: application/json' \
 --header 'content-type: application/json' \
 --header 'Token: Auth_TOKEN'
