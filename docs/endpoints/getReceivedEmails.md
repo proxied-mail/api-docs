@@ -2,7 +2,7 @@
 sidebar_position: 4
 ---
 
-# GET /api/v1/receivedEmailId/{receivedEmailId}
+# GET /api/v1/receivedEmailId/-
 
 URL: GET https://proxiedmail.com/api/v1/receivedEmailId/{receivedEmailId}
 

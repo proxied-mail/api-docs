@@ -2,7 +2,7 @@
 sidebar_position: 4
 ---
 
-# GET /api/v1/received-emails-links/{proxyBindingId}
+# GET /api/v1/received-emails-links/-
 
 URL: GET https://proxiedmail.com/api/v1/received-emails-links/{proxyBindingId}
 
