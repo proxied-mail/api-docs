@@ -19,7 +19,8 @@ Payload:
             "kkkchinazes@pxdmail.int"
          ],
          "proxy_address":"d0zjr5gnwi@proxiedmail.com",
-         "callback_url": ""
+         "callback_url": "",
+         "is_browsable": true
       }
    }
 }
@@ -42,6 +43,9 @@ Please note, that if you wish to omit email delivery somewhere and use only webh
 
 Example: testingadw@proxiedmail-int.int
 
+
+Also, is_browsable param is specifying is you get get the list of the received emails via API.
+If `is_browsable` is set to false you can't get the list of the received emails.
 
 Response (201):
 ```json
@@ -91,5 +95,5 @@ curl --location --request POST 'https://proxiedmail.com/api/v1/proxy-bindings' \
 --header 'accept: application/json' \
 --header 'content-type: application/json' \
 --header 'Token: Auth_TOKEN' \
---data-raw '{"data":{"type":"proxy_bindings","attributes":{"real_addresses":["kkkchinazes@pxdmail.int"],"proxy_address":"q1v9nj1gkw@proxiedmail.com"}}}'
+--data-raw '{"data":{"type":"proxy_bindings","attributes":{"real_addresses":["kkkchinazes@pxdmail.int"],"proxy_address":"q1v9nj1gkw@proxiedmail.com", "is_browsable": "true"}}}'
 ```
